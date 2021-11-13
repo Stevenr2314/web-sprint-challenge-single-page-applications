@@ -88,3 +88,25 @@ input:checked + .slider:before {
 .bottomDiv {
     border-bottom: 2px solid slategray;
 }
+.orderDiv{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 2%;
+}
+
+.addToOrderBtn {
+    background: #2196f3;
+    display: flex;
+    width: 40%;
+    margin-left: 20%;
+    cursor: pointer;
+}
+
+.addToOrderBtn span{
+    font-size: 1.5rem;
+    color: whitesmoke;
+}
+
+.price {
+    margin-left: 20%;
+}
